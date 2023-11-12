@@ -15,6 +15,13 @@ def is_valid_email(email):
         return True
     return False
 
+# EMAIL_LOGIN=ilyagorunov.04@gmail.com
+# EMAIL_PASSWORD=ardx yqpf yeio gjiw
+# IMAP_HOST= imap.gmail.com
+# IMAP_PORT=993
+# SMTP_HOST= smtp.gmail.com
+# SMTP_PORT=587
+# PERIOD_CHECK=10
 
 env = Env()
 env.read_env()
